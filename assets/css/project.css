@@ -221,80 +221,91 @@ a:hover {
 
 .card .title-div {
   width: 100%;
-  height: 35%;
+  /* height: 35%; */
+  height: auto;
   margin: 0;
 }
 
 .card .title {
-  padding-bottom: 2rem;
   margin-top: 0em;
-  font-size: 0.65em;
+  font-size: 0.1em;
+  margin-bottom: 0em;
 }
 
-@media (min-width: 411px) {
+@media(min-width: 311px)
+{
+  .card .title{
+    font-size: 0.1em;
+  }
+}
+
+@media(min-width: 365px){
+  .card .title{
+    font-size: 0.5em;
+  }
+}
+
+@media(min-width: 425px){
+  .card .title{
+    font-size: 0.8em;
+  }
+}
+
+@media(min-width: 554px){
+  .card .title{
+    font-size: 1em;
+  }
+}
+
+@media(min-width: 60rem)
+{
   .card .title {
     font-size: 0.8em;
   }
 }
 
-@media (min-width: 365px) {
-  .card .title {
-    font-size: 1em;
-  }
-}
 
-@media (min-width: 425px) {
-  .card .title {
-    font-size: 1.3em;
-  }
-}
-
-@media (min-width: 554px) {
-  .card .title {
-    font-size: 1.5em;
-  }
-}
-
-@media (min-width: 60rem) {
-  .card .title {
-    padding-bottom: 4rem;
-    font-size: 1.2em;
-  }
-}
+/* .card .text {
+  height: 60px;
+  font-size: 0.3em;
+  margin: 0;
+} */
 
 .card .text {
-  height: 60px;
-  font-size: 0.5em;
-  margin: 0;
+  font-size: 0.8em; /* Adjust the size as needed */
+  color: #ffffff; /* Change the color if needed */
+  margin-top: 0em; /* Add some space above the description */
+  margin-bottom: 2em; /* Remove bottom margin */
+  line-height: 1; /* Adjust the line height for better readability */
 }
 
 @media (min-width: 311px) {
   .card .text {
-    font-size: 0.7;
+    font-size: 0.5;
   }
 }
 
 @media (min-width: 365px) {
   .card .text {
-    font-size: 0.85em;
+    font-size: 0.65em;
   }
 }
 
 @media (min-width: 425px) {
   .card .text {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
 
 @media (min-width: 554px) {
   .card .text {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 
 @media (min-width: 60rem) {
   .card .text {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -311,7 +322,7 @@ input[type="text"] {
 }
 
 .skill-card .wrapper:hover .menu-content span {
-  transform: translate(-50%, -10px);
+  transform: translate(-50%, -20px);
   opacity: 1;
 }
 
@@ -323,7 +334,7 @@ input[type="text"] {
 
 .skill-card .header {
   color: #fff;
-  padding: 1em;
+  padding: 3em;
 }
 
 .skill-card .header::before,
