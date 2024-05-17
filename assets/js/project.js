@@ -18,8 +18,8 @@ const projects = [
     cardImage: "assets/images/project-page/crossroads.jpg",
     description: "Developed a machine learning model to classify customer ticket buying behaviors.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "",
-    Githublink: "https://github.com/smaranjitghose/awesome-portfolio-websites",
+    Previewlink: "https://purdue0-my.sharepoint.com/:v:/g/personal/ibilal_purdue_edu/EY_U-jKxfZFIgmw0Z1897_kBgZ3pTg3zNyDstidPBlZ3OA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tdohDZ",
+    Githublink: "https://github.com/pkakde25/NCAA_Challenge/tree/main",
   },
   {
     title: "Firm Collapse Prediction",
