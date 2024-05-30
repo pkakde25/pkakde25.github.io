@@ -14,25 +14,25 @@ const exp = [
   {
     title: "Graduate Research Assistant",
     cardImage: "assets/images/experience-page/purdue_university_logo.jpg",
-    place: "West Lafayette",
-    time: "(Feb - April, 2024)",
+    place: "West Lafayette, USA",
+    time: "(Feb, 2024 - April, 2024)",
     desp: "<li>Led web scraping initiatives across real estate (Zillow) and pharmaceutical (GoodRx) sectors, extracting data from over 940 pages using Python, Selenium, and Beautiful Soup.</li><li>Enhanced data management and enabled preliminary trend analysis by processing and structuring vast datasets into analysis-ready formats using Pandas and NumPy.</li>"
   },
   {
-    title: "Senior Associate",
+    title: "Senior Business Analysis Associate",
     cardImage: "assets/images/experience-page/zoomrx_logo.jpg",
-    place: "India",
-    time: "(May 2021 - July, 2023)",
-    desp: "<li>Played a key role in the analysis of Promotional Effectiveness Tracking and Awareness, Trial, and Usage studies, applying analytics to evaluate and enhance strategic marketing decisions for oncology drugs, particularly Lung Cancer treatments.</li><li>Developed over 10 Tableau dashboards to enable client monitoring of FDA-approved drugs, aiding in the derivation of insights into sales rep performance and drug prescribing behaviors of HCPs, directly supporting strategic decision-making.</li>"
+    place: "Remote, India",
+    time: "(May, 2021 - July, 2023)",
+    desp: "<li>Played a key role in the analysis of Promotional Effectiveness Tracking and Awareness, Trial, and Usage studies, applying analytics to evaluate and enhance strategic marketing decisions for oncology drugs, particularly Lung Cancer treatments.</li><li>Developed Tableau dashboards, Excel workbooks, PowerPoint Presentation to enable client monitoring of FDA-approved drugs, aiding in the derivation of insights into sales rep performance and drug prescribing behaviors of HCPs, directly supporting strategic decision-making.</li>"
   },
   
-  // {
-  //   title: "Research Intern",
-  //   cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-  //   place: "IIT, Bombay",
-  //   time: "(Dec, 19 - Jan, 20)",
-  //   desp: "Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha. Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.",
-  // },
+  {
+    title: "Research Analyst – Operation",
+    cardImage: "assets/images/experience-page/zigram_logo.jpg", 
+    place: "Remote, India",
+    time: "(Jan, 2021 - April, 2021)",
+    desp: "<li>Streamlined AML surveillance by enhancing PEP data collection processes, reducing project completion times by 15%.</li>",
+  },
   
 ];
 
